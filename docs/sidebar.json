@@ -1,6 +1,8 @@
 {
   "asl_detection": {
     "Overview": "/",
-    "module name here": "core.html"
+    "module name here": "core.html",
+    "Title": "preprocess_detection_dataset.html",
+    "detection.utils": "detection_utils.html"
   }
 }

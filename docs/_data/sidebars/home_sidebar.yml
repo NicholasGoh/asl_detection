@@ -12,6 +12,12 @@ entries:
     - output: web,pdf
       title: module name here
       url: core.html
+    - output: web,pdf
+      title: Title
+      url: preprocess_detection_dataset.html
+    - output: web,pdf
+      title: detection.utils
+      url: detection_utils.html
     output: web
     title: asl_detection
   output: web
