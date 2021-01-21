@@ -1,24 +1,50 @@
-# Project name here
-> Summary description here.
+# asl_detection
+> an attempt to detect american sign language
 
 
-This file will become your README and also the index of your documentation.
+### Prerequisites
 
-## Install
+This repo was developed on `Pop!_OS 20.10`.
 
-`pip install your_project_name`
+- `Pop!_OS 20.10`
+- `Nvidia GPU`
+- [Anaconda](https://docs.anaconda.com/anaconda/install/linux/)
 
-## How to use
+### Installing
 
-Fill me in please! Don't forget code examples:
+Create environment
 
-```
-1+1
-```
+	git clone git@github.com:NicholasGoh/deep_learning.git
+	cd deep_learning
+	conda env create -f environment.yml
 
+Activate environment and install jupyter kernel
 
+	conda activate asl
+	python -m ipykernel install --user --name asl  --display-name "asl"
+	
+Notebooks will then be accessible
 
+	jupyter notebook
 
-    2
+## License
 
+This project is licensed under the [MIT License](LICENSE.md)
 
+## Acknowledgments
+
+### Datasets
+
+  - Hand Detection
+    - [Hands Dataset](https://www.robots.ox.ac.uk/~vgg/data/hands/)
+  - Hand Classification
+    - [ASL Alphabets on Kaggle](https://www.kaggle.com/grassknoted/asl-alphabet)
+  - Evalutation
+    - [ASL Alphabets on YouTube](https://www.youtube.com/watch?v=a5BD8SjhPSg&t=709s)
+
+### Repository
+
+  - [darknet](https://github.com/AlexeyAB/darknet)
+
+### Code
+  - Sources to borrowed code in respective notebooks

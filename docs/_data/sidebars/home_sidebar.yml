@@ -10,14 +10,26 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: module name here
-      url: core.html
-    - output: web,pdf
-      title: Title
+      title: Preprocess hand dataset
       url: preprocess_detection_dataset.html
     - output: web,pdf
-      title: detection.utils
+      title: saving utils
+      url: save_utils.html
+    - output: web,pdf
+      title: detection_utils
       url: detection_utils.html
+    - output: web,pdf
+      title: hand_detection
+      url: hand_detection.html
+    - output: web,pdf
+      title: classfication_utils
+      url: classifier_utils.html
+    - output: web,pdf
+      title: training_classifier
+      url: training_classifier.html
+    - output: web,pdf
+      title: asl_detection
+      url: asl_detection.html
     output: web
     title: asl_detection
   output: web

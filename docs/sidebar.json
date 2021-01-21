@@ -1,8 +1,12 @@
 {
   "asl_detection": {
     "Overview": "/",
-    "module name here": "core.html",
-    "Title": "preprocess_detection_dataset.html",
-    "detection.utils": "detection_utils.html"
+    "Preprocess hand dataset": "preprocess_detection_dataset.html",
+    "saving utils": "save_utils.html",
+    "detection_utils": "detection_utils.html",
+    "hand_detection": "hand_detection.html",
+    "classfication_utils": "classifier_utils.html",
+    "training_classifier": "training_classifier.html",
+    "asl_detection": "asl_detection.html"
   }
 }

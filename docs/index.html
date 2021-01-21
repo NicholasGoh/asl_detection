@@ -1,13 +1,13 @@
 ---
 
-title: Project name here
+title: asl_detection
 
 
 keywords: fastai
 sidebar: home_sidebar
 
-summary: "Summary description here."
-description: "Summary description here."
+summary: "an attempt to detect american sign language"
+description: "an attempt to detect american sign language"
 nb_path: "index.ipynb"
 ---
 <!--
@@ -31,70 +31,71 @@ nb_path: "index.ipynb"
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This file will become your README and also the index of your documentation.</p>
+<h3 id="Prerequisites">Prerequisites<a class="anchor-link" href="#Prerequisites"> </a></h3><p>This repo was developed on <code>Pop!_OS 20.10</code>.</p>
+<ul>
+<li><code>Pop!_OS 20.10</code></li>
+<li><code>Nvidia GPU</code></li>
+<li><a href="https://docs.anaconda.com/anaconda/install/linux/">Anaconda</a></li>
+</ul>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Install">Install<a class="anchor-link" href="#Install"> </a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><code>pip install your_project_name</code></p>
+<h3 id="Installing">Installing<a class="anchor-link" href="#Installing"> </a></h3><p>Create environment</p>
+
+<pre><code>git clone git@github.com:NicholasGoh/deep_learning.git
+cd deep_learning
+conda env create -f environment.yml
+
+</code></pre>
+<p>Activate environment and install jupyter kernel</p>
+
+<pre><code>conda activate asl
+python -m ipykernel install --user --name asl  --display-name "asl"
+
+</code></pre>
+<p>Notebooks will then be accessible</p>
+
+<pre><code>jupyter notebook</code></pre>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="How-to-use">How to use<a class="anchor-link" href="#How-to-use"> </a></h2>
+<h2 id="License">License<a class="anchor-link" href="#License"> </a></h2><p>This project is licensed under the <a href="LICENSE.md">MIT License</a></p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Fill me in please! Don't forget code examples:</p>
+<h2 id="Acknowledgments">Acknowledgments<a class="anchor-link" href="#Acknowledgments"> </a></h2><h3 id="Datasets">Datasets<a class="anchor-link" href="#Datasets"> </a></h3><ul>
+<li>Hand Detection<ul>
+<li><a href="https://www.robots.ox.ac.uk/~vgg/data/hands/">Hands Dataset</a></li>
+</ul>
+</li>
+<li>Hand Classification<ul>
+<li><a href="https://www.kaggle.com/grassknoted/asl-alphabet">ASL Alphabets on Kaggle</a></li>
+</ul>
+</li>
+<li>Evalutation<ul>
+<li><a href="https://www.youtube.com/watch?v=a5BD8SjhPSg&amp;t=709s">ASL Alphabets on YouTube</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="Repository">Repository<a class="anchor-link" href="#Repository"> </a></h3><ul>
+<li><a href="https://github.com/AlexeyAB/darknet">darknet</a></li>
+</ul>
+<h3 id="Code">Code<a class="anchor-link" href="#Code"> </a></h3><ul>
+<li>Sources to borrowed code in respective notebooks</li>
+</ul>
 
 </div>
 </div>
 </div>
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="mi">1</span><span class="o">+</span><span class="mi">1</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>2</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
 </div>
  
 

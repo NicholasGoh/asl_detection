@@ -2,10 +2,26 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"my_hello": "00_core.ipynb",
-         "draw_boxes": "02_detection_utils.ipynb"}
+index = {"save": "02_save_utils.ipynb",
+         "BoundBox": "03_detection_utils.ipynb",
+         "decode_netout": "03_detection_utils.ipynb",
+         "correct_yolo_boxes": "03_detection_utils.ipynb",
+         "bbox_iou": "03_detection_utils.ipynb",
+         "do_nms": "03_detection_utils.ipynb",
+         "load_image_pixels": "03_detection_utils.ipynb",
+         "get_boxes": "03_detection_utils.ipynb",
+         "make_yolov3_model": "03_detection_utils.ipynb",
+         "WeightReader": "03_detection_utils.ipynb",
+         "load_model": "03_detection_utils.ipynb",
+         "generate_boxes": "03_detection_utils.ipynb",
+         "draw_boxes": "03_detection_utils.ipynb",
+         "PlotLosses": "05_classifier_utils.ipynb",
+         "Classifier": "05_classifier_utils.ipynb",
+         "GradCAM": "05_classifier_utils.ipynb"}
 
-modules = ["core.py"]
+modules = ["save.py",
+           "detection/utils.py",
+           "classification/utils.py"]
 
 doc_url = "https://NicholasGoh.github.io/asl_detection/"
 
