@@ -14,8 +14,8 @@ This repo was developed on `Pop!_OS 20.10`.
 
 Create environment
 
-	git clone git@github.com:NicholasGoh/asl_detection.git
-	cd asl_detection
+	git clone https://github.com/NicholasGoh/asl_detection.git
+	cd deep_learning
 	conda env create -f environment.yml
 
 Activate environment and install jupyter kernel
